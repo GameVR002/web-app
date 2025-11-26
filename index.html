@@ -4,16 +4,17 @@
 <meta charset="UTF-8">
 <title>Send Location to GAS</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
 <style>
-  #map { height: 90vh; width: 100%; }
+  #map { height: 85vh; width: 100%; }
 </style>
-
 </head>
 <body>
 
-<h3>📍 ระบุตำแหน่งบนแผนที่ OpenStreetMap</h3>
+<button id="btnLocate" style="padding:10px; margin:10px; font-size:18px;">
+  📍 หาตำแหน่งปัจจุบัน
+</button>
+
 <div id="map"></div>
 
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
